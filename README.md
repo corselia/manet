@@ -7,7 +7,7 @@
 
 **Manet** is a REST API server which allows capturing screenshots of websites using various parameters. It is a good way to make sure that your websites are responsive or to make thumbnails.
 
-**Manet** could use different engines to work: [SlimerJS](http://slimerjs.org) or [PhantomJs](http://phantomjs.org).
+**Manet** could use different engines to work: [Puppeteer](https://pptr.dev/), [SlimerJS](http://slimerjs.org) or [PhantomJs](http://phantomjs.org).
 
 * **SlimerJS** runs on top of [Gecko](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko) (the browser engine of [Mozilla Firefox](https://www.mozilla.org)) and [SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey) (the JavaScript engine of Firefox).
 * **PhantomJS** runs on top of [WebKit](https://www.webkit.org) and [JavaScriptCore](http://trac.webkit.org/wiki/JavaScriptCore).
@@ -236,7 +236,7 @@ Few rules:
   <dd>This property allows to change the height of the viewport. If width is defined and height is not defined, than full page will be captured.</dd>
 
   <dt>paperFormat</dt>
-  <dd>Paper format for PDF export (default is `letter`). Possible values: letter, A2, A3, A4, A5.</dd>  
+  <dd>Paper format for PDF export (default is `letter`). Possible values: letter, A2, A3, A4, A5.</dd>
 
   <dt>paperOrientation</dt>
   <dd>Paper orientation for PDF export (default is `portrait`). Possible values: portrait, landscape.</dd>
